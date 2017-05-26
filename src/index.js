@@ -7,7 +7,7 @@ import config from './config'; // our own modules
 import routes from './routes'; // our own modules
 
 let app = express();
-app.server = http:createServer(app);
+app.server = http.createServer(app);
 
 //middleware
 
