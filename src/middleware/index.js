@@ -5,5 +5,5 @@ export default({ config, db }) => {
 
 	//add middleware
 
-	return api;
+	return api; 
 }
