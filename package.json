@@ -4,29 +4,29 @@
   "description": "Restuarant API ",
   "main": "dist",
   "scripts": {
-  	"dev": "SET NODE_ENV=development & nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
-  	"build": "babel src -s -D -d dist --presets es2015,stage-0",
-  	"start":"NODE_ENV=production pm2 start dist",
-  	"prestart":"npm run -s build",
-  	"lint":"eslint src",
+    "dev": "SET NODE_ENV=development & nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
+    "build": "babel src -s -D -d dist --presets es2015,stage-0",
+    "start": "NODE_ENV=production pm2 start dist",
+    "prestart": "npm run -s build",
+    "lint": "eslint src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig":{
-  	"paserOptions":{
-  		"ecmaVersion": 7,
-  		"sourceType": "module"
-  	},
-  	"env":{
-  		"node": true
-  	},
-  	"rules":{
-  		"no-console": 0,
-  		"no-unused-vars": 1
-  	}
+  "eslintConfig": {
+    "paserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "no-console": 0,
+      "no-unused-vars": 1
+    }
   },
   "author": "",
   "license": "ISC",
-  "dependencies": { 
+  "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "mongoose": "^4.10.2"

@@ -1,4 +1,4 @@
  export default {
  	"port": 3005,
- 	"mongoUrl": "mongodb://localhost:27017/restaurant-api"
+ 	"mongoUrl": "mongodb://127.0.0.1:27017/restaurant-api"
  }
